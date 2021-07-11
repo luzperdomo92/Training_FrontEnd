@@ -1,0 +1,36 @@
+/* Home Articles */
+.articles-container {
+  grid-template-columns: repeat(2, 1fr);
+  }
+
+
+
+@media(max-width: 768px) {
+  .container {
+    padding: 0 2.8rem;
+  }
+  .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.2rem;
+  }
+}
+
+@media(max-width: 600px){
+  .articles-container {
+    grid-template-columns: 1fr;
+  }
+  .pagination {
+    display: none;
+  }
+  .seach-box {
+    width: 200px;
+    height: 42px;
+  }
+}
+
+@media(max-width: 480px){
+  .seach-box {
+    width: 180px;
+    height: 38px;
+  }
+}
