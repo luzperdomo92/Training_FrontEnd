@@ -16,20 +16,26 @@
 }
 
 @media(max-width: 600px){
+  .container {
+    padding: 0 4rem;
+  }
   .articles-container {
     grid-template-columns: 1fr;
   }
-  .pagination {
+  .nav__pagination {
     display: none;
   }
-  .seach-box {
+  .nav__seach-box {
     width: 200px;
     height: 42px;
   }
 }
 
 @media(max-width: 480px){
-  .seach-box {
+  .container {
+    padding: 0 2.8rem;
+  }
+  .nav__seach-box {
     width: 180px;
     height: 38px;
   }

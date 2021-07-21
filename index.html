@@ -11,18 +11,20 @@
 </head>
 <body>
   <!-- navbar -->
-  <nav id="main-nav">
+  <nav class="nav">
     <div class="container">
-      <div class="search-order">
-        <div class="search-order-items py-1">
-          <p>Ordenar</p>
-          <div class="seach-box">
-            <p>Relevancia</p>
-            <div><i class="fas fa-chevron-down"></i></div>
+      <div class="nav__search">
+        <div class="nav__items py-1">
+          <p class="nav__text py-1">Ordenar</p>
+          <div class="nav__searchbox">
+            <p class="nav__placeholder">Relevancia</p>
+            <div class="nav__iframe">
+              <i class="fas fa-chevron-down js-down"></i>
+            </div>
           </div>
         </div>
-        <div class="pagination">
-          <p>Página 1 de 14  |  1  2  <span>3</span>  4  5 … 10</p>
+        <div class="nav__pagination">
+          <p class="nav__pagination-list">Página 3 de 14  |  1  2  <span class="nav__pagination-current">3</span>  4  5 … 10</p>
         </div>
       </div>
     </div>
@@ -32,190 +34,191 @@
   <section class="main-section">
     <div class="container">
       <div class="articles-container py-2">
+
         <article class="card">
-          <img src="images/article1.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article1.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article2.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article2.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article3.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article3.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="fas fa-heart bg-orange"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article4.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article4.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="fas fa-heart bg-orange"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article5.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article5.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article6.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article6.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article7.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article7.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-              
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article8.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article8.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
 
         <article class="card">
-          <img src="images/article9.jpeg" alt="">
-          <span class="category">Catamaran</span>
-          <div class="card-description p-1">
-            <p class="card-location">Barranquilla</p>
-            <h2 class="card-title">Skate HGS-617 Dragon Fly</h2>
-            <h2 class="card-state">True</h2>
-            <p class="card-price">Desde COP $378.901</p>
-            <div class="card-rate">
-              <div class="">
-                <i class="fas fa-star bg-yellow"></i>
-                <span class="rate-description">4.0 (151)</span>
+          <img class="card__img" src="images/article9.jpeg" alt="">
+          <span class="card__category">Catamaran</span>
+          <div class="card__description p-1">
+            <p class="card__location">Barranquilla</p>
+            <h2 class="card__title">Skate HGS-617 Dragon Fly</h2>
+            <h2 class="card__state">True</h2>
+            <p class="card__price">Desde COP $378.901</p>
+            <div class="card__rate">
+              <div class="card__puntation">
+                <i class="fas fa-star bg-yellow card__start"></i>
+                <span class="card__rate-description">4.0 (151)</span>
               </div>
               <div>
-                <i class="far fa-heart"></i>
+                <i class="far fa-heart js-card__heart"></i>
               </div>
             </div>
-          </div>  
+          </div>
         </article>
+
       </div>
     </div>
-    
-    
   </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
